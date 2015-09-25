@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #1A303D;
+	font-family: 'Cabin Sketch', cursive;
+	color: floralwhite;
+}
+
+.title {
+	font-size: 2em;
+	text-align: center;
+}
+
+.board {
+	font-size: 7em;
+	height: 450px;
+	width: 450px;
+	margin: 0 auto
+}
+
+.wins {
+	font-size: 3em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.game-info{
+	font-size: 3em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.square {
+	height: 150px;
+	width: 150px;
+	text-align: center;
+}
+
+.five {
+	border-left: 5px double floralwhite;
+    border-right: 5px double floralwhite;
+    border-top: 5px double floralwhite;
+    border-bottom: 5px double floralwhite;
+}
+
+.two, .eight {
+	border-left: 5px double floralwhite;
+    border-right: 5px double floralwhite;
+}
+
+.four, .six {
+	border-top: 5px double floralwhite;
+    border-bottom: 5px double floralwhite;
+}
+
+.winners-circle {
+	text-align: center;
+	font-size: 1em;
+}
+
+
+
