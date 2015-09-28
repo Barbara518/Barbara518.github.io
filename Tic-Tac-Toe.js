@@ -169,7 +169,13 @@ var game = {
 }
 
 $playButton.on('click', game.play);
-$nextGameButon.on('click', game.resetBoard);
-$startOverButton.on('click', game.resetAll);
+$nextGameButon.on('click', function (){
+	game.resetBoard();
+	game.nextPlayer();
+});
+$startOverButton.on('click', function () {
+	game.resetAll();
+	game.nextPlayer();
+});
 		
 	
