@@ -16,6 +16,11 @@ body {
 	text-align: center;
 }
 
+input {
+	
+	color:darkgrey;
+}
+
 .board {
 	font-size: 7em;
 	height: 450px;
@@ -24,7 +29,7 @@ body {
 }
 
 .wins {
-	font-size: 3em;
+	font-size: 2em;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -64,4 +69,8 @@ body {
 }
 
 
-
+.start-over {
+	font-size: 2em;
+	margin: 0 auto;
+	text-align: center;
+}

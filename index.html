@@ -14,15 +14,18 @@
 	<title>Tic-Tac-Toe</title>
 </head>
 <body>
-	<section class= "wins">
 		<div class= "title">Tic-Tac-Toe</div>
-		<div class= "row"> 
-			<div class= "x-wins col-xs-6 col-sm-4">x:</div>
-			<div class= "o-wins col-xs-6 col-sm-4">o:</div>
-			<div class= "start-over col-xs-6 col-sm-4">
-				<button class= 'start-over'>Start Over?</button>
-			</div>
-	</section>
+	<section class = 'game-info'>
+		<div class = 'col-xs-6 col-sm-4'>
+			<button class= 'play'>Let's Play</button>
+		</div>
+		<div class = 'col-xs-6 col-sm-4'>
+			<div class= "winners-circle"></div>
+		</div>
+		<div class = 'col-xs-6 col-sm-4 next-game'>
+			<button class= 'next-game'>Next Game</button>
+		</div>
+</section>
 	<section class= "board">
 		<div class= "row">
 			<div class= "col-xs-6 col-sm-4 one square"></div>
@@ -40,22 +43,21 @@
 			<div class= "col-xs-6 col-sm-4 nine square"></div>
 		</div>
 </section>
-<section class = 'game-info'>
-		<div class = 'col-xs-6 col-sm-4'>
-			<button class= 'play'>Let's Play</button>
-		</div>
-		<div class = 'col-xs-6 col-sm-4'>
-			<div class= "winners-circle"></div>
-		</div>
-		<div class = 'col-xs-6 col-sm-4 next-game'>
-			<button class= 'next-game'>Next Game</button>
-		</div>
-</section>
-		<!-- <div class= "buttons">
-			<button>Reset</button>
-			<button></button>
-			</div> -->
-
+	<section class= "wins">
+		<div class= "row"> 
+			<div class= "col-md-6">
+				<input class= "x-name">
+				<div class ="x-wins">x:</div>
+			</div>
+			<div class= "col-md-6">
+				<input class= "o-name">
+				<div class= "o-wins">o:</div>
+			</div>
+	</section>
+			<div class= "start-over">
+				<button class= 'start-over'>Start Over?</button>
+			</div>
+	
 	<script type="text/javascript" src= "Tic-Tac-Toe.js"></script>
 </body>
 </html>

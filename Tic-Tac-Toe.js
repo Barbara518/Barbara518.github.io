@@ -12,6 +12,9 @@ var	//s1 = document.getElementsByClassName('one'),
 	$s8 = $('.eight'),
 	$s9 = $('.nine');
 
+var $xNameInput = $('.x-name'),
+	$oNameInput = $('.o-name'); 
+
 var icon = "x";
 
 var winner = "",
@@ -111,6 +114,8 @@ var game = {
 		oWins = 0;
 		game.updateWins();
 		game.done = false;
+		$xNameInput.val('');
+		$oNameInput.val('');
 	},
 	updateWins: function (){
 		$xWinsView.html('x:' + xWins);
